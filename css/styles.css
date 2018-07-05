@@ -107,6 +107,11 @@ header {
   border-radius: 10%;
   float:right;
 }
+.infoimg {
+  width: 200px;
+  border-radius: 10%;
+  float: center;
+}
 
 /* Footer styles only */
 footer {
