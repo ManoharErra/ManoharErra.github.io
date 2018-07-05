@@ -92,6 +92,21 @@ header {
   border-radius: 50%;
   float: left;
 }
+.we-img {
+  width: 300px;
+  border-radius: 10%;
+  float: left;
+}
+.pr-img {
+  width: 300px;
+  border-radius: 10%;
+  float:right;
+}
+.crc-img {
+  width: 100px;
+  border-radius: 10%;
+  float:right;
+}
 
 /* Footer styles only */
 footer {
