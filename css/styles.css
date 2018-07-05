@@ -1,0 +1,144 @@
+/* Global styles 
+------------------------------------*/
+/* border box fix */
+html {
+  box-sizing: border-box; 
+  height:420px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Open Sans', 'sans-serif';
+  margin: 0;
+}
+a {
+	text-decoration: none;
+	color:red;
+    
+}
+a:hover {
+    color:  black;
+}
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+.projectfile {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+  font-family: 'sans-serif'
+}
+.PI{
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+.interests{
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+.column-narrow {
+  width: 35%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+.column-wide {
+  width: 62%;
+  float: left;
+  min-height: 175px;
+}
+/* Header & Footer 
+------------------------------------*/
+header {
+	background-image:url("https://picsum.photos/g/1400/500/?random");
+  /*background:#ffcccc;/*#2B2D42;*/
+  color:  #ffffff;
+}
+footer {
+	background:#cccccc;/*#2B2D42;*/
+    color:black;
+}
+header h1,
+header h2 {
+    color: #ff3399/*#EDF2F4;*/
+    margin: 0;
+}
+/* Header styles only */
+header {
+	text-align: center;
+}
+.profile-img {
+  width: 300px;
+  border-radius: 50%;
+  float: left;
+}
+.we-img {
+  width: 300px;
+  border-radius: 10%;
+  float: left;
+}
+.pr-img {
+  width: 300px;
+  border-radius: 10%;
+  float:right;
+}
+.crc-img {
+  width: 100px;
+  border-radius: 10%;
+  float:right;
+}
+
+/* Footer styles only */
+footer {
+  text-align:center
+  ;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+/* Work Experience
+------------------------------------*/
+.work {
+	background:#cceeff;
+}
+/* Projects
+------------------------------------*/
+.project {
+    background:#e6ffe6;
+}
+/*PersonalInterests*/
+------------------------------------*/
+.PersonalInterests {
+    background:#cceeff;
+}
+/* PI
+------------------------------------*/
+.PersonalInformation{
+    background:#e6ffe6;
+}
+/* Education
+------------------------------------*/
+.education {
+    background:	 #ffffe6;
+}
